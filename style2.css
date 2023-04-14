@@ -1,0 +1,35 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    font-size: large;
+}
+
+.navMenu{
+    display: flex;
+    gap: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

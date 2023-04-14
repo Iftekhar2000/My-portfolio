@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    font-size: large;
+    position: sticky;
+    top: 0;
+}
+
+.navMenu{
+    display: flex;
+    gap: 12px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 20px;
+}
+
+ul{
+    list-style: decimal;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+button{
+    background-color: black;
+}
